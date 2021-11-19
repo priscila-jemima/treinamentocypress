@@ -1,0 +1,13 @@
+{"$schema": "https://on.cypress.io/cypress.schema.json",
+"defaultCommandTimeout": 10000,
+"baseUrl": "https://demo.realworld.io/#/",
+"env": {
+    "user": "priscila.pereira@br.experian.com",
+    "pass": "Apolo@123",
+    "apiUrl": "https://api.realworld.io/api"
+},
+"reporter": "cypress-multi-reporters",
+"reporterOptions": {
+    "configFile": "reporter-config.json"
+}
+}
